@@ -1,0 +1,479 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/youssouf/ontologies/2017/10/untitled-ontology-11"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/youssouf/ontologies/2017/10/untitled-ontology-11">
+    <Prefix name="" IRI="http://www.semanticweb.org/youssouf/ontologies/2017/10/untitled-ontology-11#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-11" IRI="http://www.semanticweb.org/youssouf/ontologies/2017/10/untitled-ontology-11#"/>
+    <Declaration>
+        <Class IRI="#Example"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DateTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TypicalLearningTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GeneralInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerActive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerVisual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://eeyem.eap.gr/ontologies/2011/LearningOutcome.owl#LearningOutcome"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PPTs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalSpecification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearningTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerSensing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EducationalObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Images"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chapter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerSequential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeOfDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://eeyem.eap.gr/ontologies/2011/Student_Model_updated.owl#_LORecord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://eeyem.eap.gr/ontologies/2011/Student_Model_updated.owl#_Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerGlobal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MonthOfYear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SuppInformation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocumentLearningStyle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeZone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Videos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PracticalMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MainDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReferenceDocument"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Holiday"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitMinute"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContentPrerequisites"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://eeyem.eap.gr/ontologies/2011/Student_Model_updated.owl#_LearningTrack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ConcreteTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sequential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Description"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#References"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fragment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DayOfWeek"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningLevel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerReflexive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AbstractTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Demo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TopicList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitHour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assignments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DateTimeDescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemporalUnit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Clock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerVerbal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Announcements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PDF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Test"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiz"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exercise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitDay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://eeyem.eap.gr/ontologies/2011/LearningObject.owl#LearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitSecond"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LearnerIntuitive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Season"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Email"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UnitMonth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Definition"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AbstractTime"/>
+        <Class IRI="#TemporalSpecification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Announcements"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Article"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assignments"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chart"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Clock"/>
+        <Class IRI="#DateTimeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ConcreteTime"/>
+        <Class IRI="#TemporalSpecification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Course"/>
+        <Class IRI="#Chapter"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Date"/>
+        <Class IRI="#DateTimeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateTime"/>
+        <Class IRI="#DateTimeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DateTimeDescription"/>
+        <Class IRI="#ConcreteTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DayOfWeek"/>
+        <Class IRI="#AbstractTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Definition"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Demo"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Description"/>
+        <Class IRI="#ReferenceDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detail"/>
+        <Class IRI="#ReferenceDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentLearningStyle"/>
+        <Class IRI="#ReferenceDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EducationalObject"/>
+        <Class IRI="#Course"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Email"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Example"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exercise"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forum"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GeneralInformation"/>
+        <Class IRI="#ReferenceDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Holiday"/>
+        <Class IRI="#AbstractTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Images"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laps"/>
+        <Class IRI="#ConcreteTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerActive"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerGlobal"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerIntuitive"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerLevel"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerReflexive"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerSensing"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerSequential"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerVerbal"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearnerVisual"/>
+        <Class IRI="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ContentLearningStyle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LearningTime"/>
+        <Class IRI="#TemporalSpecification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MonthOfYear"/>
+        <Class IRI="#AbstractTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PDF"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PPTs"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PracticalMaterial"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiz"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#References"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Season"/>
+        <Class IRI="#AbstractTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sequential"/>
+        <Class IRI="#Concept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SuppInformation"/>
+        <Class IRI="#Description"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemporalUnit"/>
+        <Class IRI="#ConcreteTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeOfDay"/>
+        <Class IRI="#AbstractTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeZone"/>
+        <Class IRI="#DateTimeDescription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TopicList"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Type"/>
+        <Class IRI="#ReferenceDocument"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TypicalLearningTime"/>
+        <Class IRI="#LearningTime"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitDay"/>
+        <Class IRI="#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitHour"/>
+        <Class IRI="#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitMinute"/>
+        <Class IRI="#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitMonth"/>
+        <Class IRI="#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitSecond"/>
+        <Class IRI="#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UnitYear"/>
+        <Class IRI="#TemporalUnit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Videos"/>
+        <Class IRI="#EducationalObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#book"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+

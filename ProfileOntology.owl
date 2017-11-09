@@ -1,0 +1,1040 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#"
+     xml:base="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:untitled-ontology-25="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Perception -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Perception">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Perception"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Psychological -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Psychological">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Psychological"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#belongsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#belongsTo">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterface"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#executes -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#executes">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#OperatingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#generates -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#generates">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#has -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#has">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#hasInteractionRequirement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#hasInteractionRequirement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionRequirement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#implies -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#implies">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Environment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Location"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserActivity"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserEquipment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ApplicationRelatedCondition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#EnvironmetalCondition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpatialCondition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserActivityCondition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserEquipmentCondition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isGeneratedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isGeneratedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionRequirement"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isLinkedWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isLinkedWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterfaceComponent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionChannel"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#RegistryProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isRequiredFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isRequiredFor">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterface"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTask"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isUsedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#isUsedBy">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterfaceComponent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayAttachOrEmbed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayAttachOrEmbed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#IOMedium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayBeAttachedOrEmbedded -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayBeAttachedOrEmbedded">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#IOMedium"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayConsistOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayConsistOf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTask"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayRequireToBeUsed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#mayRequireToBeUsed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterfaceComponent"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserAction"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#participation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#participation">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Participation"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#performs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#performs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#User"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserActivity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#practice -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#practice">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Practice"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#requires -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#requires">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTask"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterface"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#responsibility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#responsibility">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Responsibility"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#runsOnOS -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#runsOnOS">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#OperatingSystem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#sociological -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#sociological">
+        <rdfs:domain>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle"/>
+            </owl:Restriction>
+        </rdfs:domain>
+        <rdfs:range>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Sociological"/>
+            </owl:Restriction>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#supports -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#supports">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#OperatingSystem"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#uses -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#uses">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterface"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterfaceComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#FirstName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#FirstName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#adress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#adress">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#age">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#dateOfCreation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#dateOfCreation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#dateOfEdition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#dateOfEdition">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#edition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#edition">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#email -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#email">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#id -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#id">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#idProfile -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#idProfile">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#language -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#language">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#language"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#lastName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#lastName">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#Name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#livel -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#livel">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#login -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#login">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#password -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#password">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#session -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#session">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://ebiquity.umbc.edu/ontology/person.owl#Faculty -->
+
+    <owl:Class rdf:about="http://ebiquity.umbc.edu/ontology/person.owl#Faculty">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://ebiquity.umbc.edu/ontology/person.owl#Student -->
+
+    <owl:Class rdf:about="http://ebiquity.umbc.edu/ontology/person.owl#Student">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#User"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cpont/userprofile.owl#Contact -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cpont/userprofile.owl#Contact"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cpont/userprofile.owl#User -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cpont/userprofile.owl#User"/>
+    
+
+
+    <!-- http://www.ontologydesignpatterns.org/cpont/userprofile.owl#UserLanguage -->
+
+    <owl:Class rdf:about="http://www.ontologydesignpatterns.org/cpont/userprofile.owl#UserLanguage"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Accessibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Accessibility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Administration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Administration"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Administrator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Administrator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ApplicationRelatedCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ApplicationRelatedCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SystemCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#BirthDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#BirthDate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#GeneralInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#CenterOfInterest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#CenterOfInterest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpecificInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Characteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Characteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Condition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#CulturalUserCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#CulturalUserCharacteristic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#DTV -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#DTV">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#E-Mail -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#E-Mail">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#GeneralInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#EmailClient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#EmailClient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Environment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Environment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalFactor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#EnvironmetalCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#EnvironmetalCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalFactor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#FirstName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#FirstName">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#GeneralInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#FunctionalUserCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#FunctionalUserCharacteristic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#GeneralInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#GeneralInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#IOMedium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#IOMedium"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Identification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Identification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionChannel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionChannel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionRequirement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#InteractionRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#JobTitle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#JobTitle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpecificInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#LastName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#LastName">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#GeneralInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Learner -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Learner">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#LearningLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#LearningLevel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpecificInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#LearningStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#LearningStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpecificInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalFactor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#OperatingSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#OperatingSystem"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#PC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#PC">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Participation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Participation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Perception -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Perception"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#PersonalInformations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#PersonalInformations"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Phone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Phone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#GeneralInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Practice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Practice"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Prerequisites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Prerequisites"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Psychological -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Psychological"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#RegistryProperty -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#RegistryProperty"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Responsibility -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Responsibility"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ScreenMagnifier -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ScreenMagnifier">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ScreenReader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ScreenReader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#AssistiveSoftware"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Security -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Security"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SmartPhone -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SmartPhone">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SocioEconomicUserCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SocioEconomicUserCharacteristic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Sociological -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Sociological"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpatialCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpatialCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#ExternalCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpecificInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SpecificInformation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Standard -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Standard"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SystemCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SystemCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Tablet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Tablet">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Device"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Teacher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Teacher">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Test -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Test"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#TextEditor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#TextEditor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Application"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserAction"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserActivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserActivity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserActivityCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserActivityCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCharacteristic"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserEquipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserEquipment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserEquipmentCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserEquipmentCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInformation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterface -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterface"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterfaceComponent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserInterfaceComponent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningLevel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningLevel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserLearningStyle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserPreference"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserPreference -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserPreference"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserProfile -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserProfile"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserSpecification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserSpecification"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTask"/>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTaskRelatedCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserTaskRelatedCondition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#SystemCondition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/youssouf/ontologies/2017/6/untitled-ontology-25#UserSpecification"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
